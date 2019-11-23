@@ -1,7 +1,7 @@
 {
-  "name": "pointcore-dashboard",
+  "name": "react-sample-monorepo",
   "version": "1.0.0",
-  "description": "Power BI Embedded dashboard for PC ownership",
+  "description": "Example Monorepo utilizing React using Lerna and Parcel",
   "main": "index.js",
   "author": "Daniel Cender",
   "license": "MIT",
