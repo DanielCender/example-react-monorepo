@@ -1,0 +1,9 @@
+{
+  "name": "root",
+  "author": "danielcender@coreconstruction.com",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}

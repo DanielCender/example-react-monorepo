@@ -1,0 +1,21 @@
+{
+  "name": "pointcore-dashboard",
+  "version": "1.0.0",
+  "description": "Power BI Embedded dashboard for PC ownership",
+  "main": "index.js",
+  "author": "Daniel Cender",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "parcel public/index.html",
+    "build": "parcel build public/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}
