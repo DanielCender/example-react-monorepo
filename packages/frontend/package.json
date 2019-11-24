@@ -9,7 +9,10 @@
   "scripts": {
     "dev": "parcel public/index.html",
     "build": "parcel build public/index.html",
-    "test": "jest --passWithNoTests"
+    "test": "jest --passWithNoTests --env=jsdom",
+    "test:coverage": "jest --coverage --env=jsdom",
+    "test:build": "jest --ci --env=jsdom",
+    "test:watch": "jest --watch"
   },
   "jest": {
     "transform": {
