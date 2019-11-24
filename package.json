@@ -1,8 +1,20 @@
 {
   "name": "root",
-  "author": "danielcender@coreconstruction.com",
+  "author": "Daniel Cender",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "test": "lerna run test --stream",
+    "build": "lerna run build --stream"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DanielCender/example-react-monorepo"
+  },
   "devDependencies": {
     "lerna": "^3.19.0"
   }
